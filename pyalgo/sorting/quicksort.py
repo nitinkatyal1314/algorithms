@@ -104,11 +104,14 @@ class QuickSort:
 
     def _sort(self, arr, start, end):
         """
-        Recursively calls itself to find the partition on the array.
-        :param arr:
-        :type arr:
-        :return:
-        :rtype:
+        Recursively calls itself to find the partition on the array. This is an in place sorting mechanism so
+        no extra space to store the sorted array is required.
+        :param arr: list of items to be sorted
+        :type arr: list
+        :param start: start index for the list
+        :type start: int
+        :param end: end index for the list
+        :type end: int
         """
 
         if start < end:
@@ -122,11 +125,11 @@ class QuickSort:
 
     def sort(self, arr):
         """
-        Runs quicksort
-        :param arr:
-        :type arr:
-        :return:
-        :rtype:
+        Given the list, sort it using quicksort.
+        :param arr: list of items to sort
+        :type arr: list
+        :return: sorted array
+        :rtype: list
         """
 
         if len(arr) < 2:
