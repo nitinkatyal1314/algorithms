@@ -135,7 +135,6 @@ class QuickSort:
         if len(arr) < 2:
             return arr
         else:
-            # we pass end as len(arr) as end and not len(arr) - 1 because we implement do while internally
             self._sort(arr, 0, len(arr) - 1)
             return arr
 
