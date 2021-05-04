@@ -3,6 +3,7 @@
 The python package is available as pyalgo, which can be installed using :
 
 ```bash
+git clone https://github.com/nitinkatyal1314/algorithms.git
 python setup.py install
 ```
 
