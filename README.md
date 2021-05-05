@@ -7,6 +7,27 @@ git clone https://github.com/nitinkatyal1314/algorithms.git
 python setup.py install
 ```
 
+# Dependencies
+
+The package depends on data-structures repo here : https://github.com/nitinkatyal1314/data-structures/tree/main . 
+
+These data structures are used in algorithms throughout. The package is alreaded added as a dependecy in setup.py
+so the above installation instruction will recolve the package (with correct version).
+
+
+# Sorting Algorithms
+
+Following sorting algorithms are available: 
+
+1. Bubble Sort
+2. Selection Sort
+3. Insertion Sort
+4. Merge Sort
+5. Heap Sort
+6. Quick Sort
+
+The logic of implementation is available within the code with their big-oh notations.
+
 
 ## To use sorting algorithm like Mergesort, following are the steps:
 
