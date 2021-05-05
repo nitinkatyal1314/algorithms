@@ -40,18 +40,18 @@ class MergeSort:
             item_arr1 = arr1[index_arr1]
             item_arr2 = arr2[index_arr2]
             if item_arr1 <= item_arr2:
-                if self.current_sort_order:
+                if self.current_sort_order == SortOrder.ASC:
                     combined_array.append(item_arr1)
                     index_arr1 += 1
-                else:
+                elif self.current_sort_order == SortOrder.DESC:
                     combined_array.append(item_arr2)
                     index_arr2 += 1
 
             elif item_arr1 > item_arr2:
-                if self.current_sort_order:
+                if self.current_sort_order == SortOrder.ASC:
                     combined_array.append(item_arr2)
                     index_arr2 += 1
-                else:
+                elif self.current_sort_order == SortOrder.DESC:
                     combined_array.append(item_arr1)
                     index_arr1 += 1
 
