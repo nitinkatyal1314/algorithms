@@ -19,7 +19,7 @@ def to_list(buffer):
 DEPENDENCIES = {
     "core": to_list(
       """
-        py-ds
+        py-ds==0.1.1
       """
     )
 }
