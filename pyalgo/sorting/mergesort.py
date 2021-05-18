@@ -82,12 +82,12 @@ class MergeSort:
         if lower_bound < upper_bound:
             # call sort on left sub-array
             left_subarray = arr[lower_bound:mid]
-            left_merged_arr = self.sort(left_subarray)
+            left_merged_arr = self._sort(left_subarray)
 
             # call sort on right sub-array
             # add 1 to upper bound so that the element at that index is included
             right_subarray = arr[mid:upper_bound + 1]
-            right_merged_arr = self.sort(right_subarray)
+            right_merged_arr = self._sort(right_subarray)
 
             # return the combined sorted array
             return self.merge(left_merged_arr, right_merged_arr)
