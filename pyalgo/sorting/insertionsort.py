@@ -5,7 +5,7 @@ class InsertionSort:
 
     """
     Insertion sort divide the array into a sorted (left subarray) and the unsorted (right subarray). In insertion sort,
-    the iteration mpves through each element in unsorted arary compares it with the elements in the sorted subarray
+    the iteration moves through each element in unsorted array compares it with the elements in the sorted subarray
     till it reached the right location within the subarray. This process is repeated till all the items
     in the right subarray are visited.
 
